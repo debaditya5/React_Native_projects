@@ -67,7 +67,6 @@ export default function MovieScreen({ route, navigation }) {
 					<Pressable style={styles.background} className='rounded-xl p-1' onPress={() => navigation.goBack()}>
 						{({ pressed }) => <ChevronLeftIcon size='28' strokeWidth={2.5} color={pressed ? "gray" : "white"} />}
 					</Pressable>
-
 					<Pressable onPress={favouriteHandler.bind(this, item)}>{({ pressed }) => <HeartIcon size='35' color={isFavourite ? "red" : pressed ? "gray" : "white"} />}</Pressable>
 				</SafeAreaView>
 

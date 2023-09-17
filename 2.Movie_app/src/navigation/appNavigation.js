@@ -14,7 +14,6 @@ import FavoritesScreen from "../screens/FavoritesScreen";
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
-// drawerStyle
 function MyDrawer() {
 	return (
 		<Drawer.Navigator screenOptions={{ drawerStyle: { backgroundColor: "#262626" }, drawerLabelStyle: { color: "#ffffff" }, drawerActiveBackgroundColor: "#00acc1" }}>
